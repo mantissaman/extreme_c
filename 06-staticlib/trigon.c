@@ -18,7 +18,7 @@ double acos_deg(double deg){
 }
 
 double sin_deg(double deg){
-return sin(to_radian(deg));s
+return sin(to_radian(deg));
 }
 
 double asin_deg(double deg){

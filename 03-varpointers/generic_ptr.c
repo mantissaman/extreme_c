@@ -1,7 +1,7 @@
 /*
 Generic pointers cannot be dereferenced
 Type and as such arithmetic step is not known
-They are good for generic functions
+They are good for generic functions (remmber <T>)
 */
 #include<stdio.h>
 
