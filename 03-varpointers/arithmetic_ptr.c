@@ -16,6 +16,8 @@ int main(int argc, char** argv){
     int_ptr++;
     char_ptr++;
 
+    //Step size is determined by the data type
+    //Int will increament by 4 whereas char will by 1
     printf("After arithmetic int_ptr: %u, char_ptr: %u\n", 
         (unsigned int) int_ptr, (unsigned int) char_ptr); 
 
