@@ -9,3 +9,5 @@ int main (int argc, char** argv){
     printf("Polar Position: Length: %f, Theta: %f (deg)\n",polar_pos.length, polar_pos.theta);
     return 0;
 }
+// atulsharma@pop-os:~/projects/extreme_c/07-staticlib-use$ gcc -c use_static.c -o main.o
+// atulsharma@pop-os:~/projects/extreme_c/07-staticlib-use$ gcc main.o -L ../opt/geometry -lgeometry -lm -o ex.out
