@@ -1,0 +1,11 @@
+Once process is created OS allocates a dedicated portion of memory.
+Memory layout of an ordinary process is divided into segments:
+1. Uninitialized data segment or Block Started by Symbol (BSS)
+2. Data segment
+3. Text segment or Code segment
+4. Stack segment
+5. Heap segment
+
+Some segments resides in executable objects (static memory layout) and some other are created in runtime(dynamic memory layout).
+
+BSS is preallocated memory for unassgined or set to zero global vars. They never get unallocated and has static lifetime.
