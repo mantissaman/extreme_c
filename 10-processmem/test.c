@@ -11,3 +11,4 @@ int main(int argc, char** argv){
 }
 // gcc test.c
 // size a.out
+// Text section - objdump -S a.out

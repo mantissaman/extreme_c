@@ -10,6 +10,6 @@ int main(int argc, char **argv)
     return 0;
 }
 
-// gcc bss.c
+// gcc data_seg.c
 // objdump -s -j .data a.out
-// first column is address followed by data columns lats column is ascii representationobjdump -s -j .data a.out
+// first column is address followed by data columns lats column is ascii representation
